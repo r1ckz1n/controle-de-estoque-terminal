@@ -44,11 +44,8 @@ while True:
     if estoque:
         for nome, qtd in estoque.items():
             print(f'{nome}: {qtd}')
-        else:
-            print('Estoque vazio.')
-
-    elif opcao == '5':
-        print('Saindo do sistema...')
+    else:
+        print('Estoque vazio.')
     break
 
 else:
